@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-left: 5%;
+margin-top: 150px;
+background: linear-gradient(90deg,#f100ff 0%, #1417f8 80%); 
+padding-right: 30px;
+
+}
+
+
+
+
+
+
+form
+{
+
+width: 20%;
+height: 80vh;
+}
+ 
+label
+{
+display: block;
+color: rgb(255, 251, 0);
+}
+
+input{
+    height: 25px;
+    width: 80%;
+    padding-left: 10px;
+}
+
+
+label,input{
+    line-height: 22px;
+}
+
+
+button{
+    background-color: #db12a9;
+    color: white;
+    padding: 3;
+
+}
